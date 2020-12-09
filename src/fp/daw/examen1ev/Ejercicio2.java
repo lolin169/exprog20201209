@@ -20,7 +20,7 @@ public class Ejercicio2 {
 
 	static boolean esBisiesto(int n) {
 		boolean bisiesto = false;
-		if ((n % 100) == 0 ^ ((n % 400 == 0)&& (n % 4 == 0))) {
+		while ((n % 100) == 0 ^ ((n % 400 == 0)&& (n % 4 == 0))) {
 			bisiesto = false;
 			return bisiesto;
 		}
